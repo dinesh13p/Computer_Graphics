@@ -23,7 +23,7 @@ void plotCirclePoints(int xc, int yc, int x, int y) {
 
 void drawMidpointCircle(int xc, int yc, int r) {
     int x = 0, y = r;
-    int p = 1 - r; /* initial decision parameter */
+    int p = 1 - r;
 
     glColor3f(1.0f, 1.0f, 0.0f);
     glPointSize(3.0f);
