@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build & Run CG file",
+            "type": "shell",
+            "command": "gcc '${file}' -o '${fileDirname}/${fileBasenameNoExtension}' -framework GLUT -framework OpenGL -Wno-deprecated-declarations && '${fileDirname}/${fileBasenameNoExtension}'",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

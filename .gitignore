@@ -1,0 +1,14 @@
+# Compiled binaries (no extension, from gcc output)
+LAB_REPORT/[0-9][0-9]_*
+!LAB_REPORT/[0-9][0-9]_*.c
+
+# macOS debug symbols
+*.dSYM/
+
+# Editor / OS junk
+.DS_Store
+*.o
+*.out
+
+# VS Code (keep tasks.json and settings, ignore the rest if you don't want them shared)
+# .vscode/
