@@ -9,7 +9,6 @@
 #define WIDTH 800
 #define HEIGHT 600
 
-/* Same coordinates as if entered in graphics.h */
 int x1Pos = 100, y1Pos = 100;
 int x2Pos = 500, y2Pos = 400;
 
@@ -23,7 +22,6 @@ void drawBresenhamLine(int x1, int y1, int x2, int y2)
     x = x1;
     y = y1;
 
-    /* Initial decision parameter */
     p = 2 * dy - dx;
 
     glColor3f(1.0f, 1.0f, 0.0f);
