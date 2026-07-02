@@ -30,11 +30,9 @@ void drawTriangle(float xs[3], float ys[3]) {
 void display(void) {
     glClear(GL_COLOR_BUFFER_BIT);
 
-    /* Draw original triangle */
     glColor3f(1.0f, 1.0f, 0.0f);
     drawTriangle(triX, triY);
 
-    /* Compute and draw translated triangle */
     float newX[3], newY[3];
     for (int i = 0; i < 3; i++) {
         translatePoint(triX[i], triY[i], tx, ty, &newX[i], &newY[i]);
