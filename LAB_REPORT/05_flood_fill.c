@@ -75,10 +75,10 @@ void init()
     gluOrtho2D(0, WIDTH, HEIGHT, 0);
 
     drawRectangle(100, 100, 300, 250);
-    floodFill(150, 150, 0, 2, 4); /* 4-connected */
+    floodFill(150, 150, 0, 2, 4); 
 
     drawRectangle(450, 100, 650, 250);
-    floodFill(500, 150, 0, 3, 8); /* 8-connected */
+    floodFill(500, 150, 0, 3, 8); 
 }
 
 int main(int argc, char **argv)
